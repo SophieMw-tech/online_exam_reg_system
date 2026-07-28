@@ -1,0 +1,211 @@
+.phone-container{
+
+    width:390px;
+
+    min-height:844px;
+
+    background:white;
+
+    border-radius:40px;
+
+    padding:35px 30px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+}
+
+.login-card{
+
+    width:100%;
+
+}
+
+.system-title{
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    margin-bottom:30px;
+
+}
+
+.logo-box{
+
+    width:90px;
+
+    height:90px;
+
+    background:#2563EB;
+
+    color:white;
+
+    margin:auto;
+
+    border-radius:22px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+    font-size:22px;
+
+    margin-bottom:35px;
+
+}
+
+h1{
+
+    text-align:center;
+
+    font-size:32px;
+
+    margin-bottom:5px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#64748B;
+
+    margin-bottom:35px;
+
+}
+
+.form-group{
+
+    margin-bottom:22px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-weight:500;
+
+}
+
+.input-box{
+
+    display:flex;
+
+    align-items:center;
+
+    border:2px solid #CBD5E1;
+
+    border-radius:18px;
+
+    padding:0 15px;
+
+    transition:.3s;
+
+}
+
+.input-box:focus-within{
+
+    border-color:#2563EB;
+
+}
+
+.input-box .material-icons{
+
+    color:#64748B;
+
+    font-size:22px;
+
+}
+
+.input-box input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    padding:16px 12px;
+
+    font-size:15px;
+
+    background:transparent;
+
+}
+
+.toggle-password{
+
+    cursor:pointer;
+
+}
+
+.forgot-password{
+
+    text-align:right;
+
+    margin-bottom:28px;
+
+}
+
+.forgot-password a{
+
+    color:#2563EB;
+
+    font-size:14px;
+
+}
+
+.login-btn{
+
+    width:100%;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:16px;
+
+    border-radius:18px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.login-btn:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+
+}
+
+.signup{
+
+    text-align:center;
+
+    margin-top:30px;
+
+    color:#64748B;
+
+}
+
+.signup a{
+
+    color:#2563EB;
+
+    font-weight:600;
+
+}
