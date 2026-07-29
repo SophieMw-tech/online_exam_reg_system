@@ -209,3 +209,20 @@ label{
     font-weight:600;
 
 }
+
+.error-message{
+
+    background:#FEE2E2;
+    color:#B91C1C;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+    font-size:14px;
+
+}

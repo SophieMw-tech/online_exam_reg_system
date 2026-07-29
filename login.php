@@ -1,3 +1,48 @@
+<?php
+session_start();
+include 'includes/db.php';
+
+$error = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $admission_number = trim($_POST['admission_number']);
+    $password = trim($_POST['password']);
+
+    $sql = "SELECT * FROM students WHERE admission_number = ?";
+    $stmt = mysqli_prepare($conn, $sql);
+
+    mysqli_stmt_bind_param($stmt, "s", $admission_number);
+    mysqli_stmt_execute($stmt);
+
+    $result = mysqli_stmt_get_result($stmt);
+
+    if (mysqli_num_rows($result) == 1) {
+
+        $student = mysqli_fetch_assoc($result);
+
+        // Temporary password check
+        if ($password === $student['password']) {
+
+            $_SESSION['student_id'] = $student['student_id'];
+            $_SESSION['student_name'] = $student['full_name'];
+
+            header("Location: student/dashboard.php");
+            exit();
+
+        } else {
+
+            $error = "Incorrect password.";
+
+        }
+
+    } else {
+
+        $error = "Admission number not found.";
+
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +82,15 @@
         <p class="subtitle">
             Sign in to continue
         </p>
+    <?php if(!empty($error)): ?>
 
+<div class="error-message">
+
+    <?php echo $error; ?>
+
+</div>
+
+<?php endif; ?>
         <form method="POST">
 
             <div class="form-group">
