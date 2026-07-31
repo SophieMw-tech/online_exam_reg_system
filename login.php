@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $student = mysqli_fetch_assoc($result);
 
         // Temporary password check
-        if ($password === $student['password']) {
+        if (password_verify($password, $student['password'])) {
 
             $_SESSION['student_id'] = $student['student_id'];
-            $_SESSION['student_name'] = $student['full_name'];
+            $_SESSION['student_name'] = $student['first_name'] . " " . $student['last_name'];
 
             header("Location: student/dashboard.php");
             exit();
