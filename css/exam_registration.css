@@ -1,0 +1,61 @@
+.page-title{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.back-button{
+
+    display:inline-flex;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}
+
+select{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    padding:16px 12px;
+
+    background:transparent;
+
+    font-size:15px;
+
+}
+
+.terms{
+
+    margin:25px 0;
+
+}
+
+.terms label{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+    font-size:14px;
+
+    line-height:1.5;
+
+}
+
+.terms input{
+
+    margin-top:4px;
+
+}

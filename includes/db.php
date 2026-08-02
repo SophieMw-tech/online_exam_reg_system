@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "online_exam_reg_db";
+$database = "online_exams_reg_db";
 
 $conn = mysqli_connect($host, $username, $password, $database);
 
