@@ -68,7 +68,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (mysqli_stmt_execute($insert)) {
 
-            $message = "Exam registration successful!";
+           header("Location: confirmation.php?registration_id=" . mysqli_insert_id($conn));
+exit();
 
         } else {
 
