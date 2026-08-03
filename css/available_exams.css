@@ -1,0 +1,42 @@
+@import url("style.css");
+
+h2{
+    color:#1F2937;
+    margin-bottom:25px;
+}
+
+.exam-card{
+
+    background:#FFFFFF;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.08);
+
+}
+
+.exam-card h3{
+
+    color:#1E40AF;
+
+    margin-bottom:10px;
+
+}
+
+.exam-card p{
+
+    color:#6B7280;
+
+    margin-bottom:8px;
+
+}
+
+.btn{
+
+    margin-top:10px;
+
+}

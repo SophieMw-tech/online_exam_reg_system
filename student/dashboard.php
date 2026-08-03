@@ -128,7 +128,7 @@ Welcome,
 </div>
 </a>
 
-<a href="exam_registration.php" class="card-link">
+<a href="available_exams.php" class="card-link">
 
 <div class="card">
 
@@ -147,6 +147,7 @@ if(mysqli_num_rows($pending_result)>0){
 while($pending=mysqli_fetch_assoc($pending_result)){
 
 ?>
+
 
 <p>
 
