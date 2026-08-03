@@ -1,0 +1,77 @@
+@import url("style.css");
+
+.profile-header{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+.profile-icon{
+
+font-size:90px;
+
+color:#1E40AF;
+
+margin-bottom:15px;
+
+}
+
+.profile-header h2{
+
+color:#1F2937;
+
+margin-bottom:5px;
+
+}
+
+.profile-header p{
+
+color:#6B7280;
+
+}
+
+.profile-card{
+
+background:#fff;
+
+border-radius:18px;
+
+box-shadow:0 5px 12px rgba(0,0,0,.08);
+
+padding:20px;
+
+margin-bottom:30px;
+
+}
+
+.row{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:15px 0;
+
+border-bottom:1px solid #E5E7EB;
+
+}
+
+.row:last-child{
+
+border-bottom:none;
+
+}
+
+.row span{
+
+color:#6B7280;
+
+}
+
+.row strong{
+
+color:#1F2937;
+
+}
