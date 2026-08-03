@@ -104,7 +104,11 @@ rel="stylesheet">
 
 <body>
 
-<div class="phone-container">
+<div class="phone">
+
+<div class="notch"></div>
+
+<div class="screen">
 
 <div class="login-card">
 
@@ -287,6 +291,7 @@ Proceed to Confirmation
 </form>
 </div>
 
+</div>
 </div>
 
 </body>

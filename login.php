@@ -65,7 +65,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-<div class="phone-container">
+<div class="phone">
+
+<div class="notch"></div>
+
+<div class="screen">
 
     <div class="login-card">
 
@@ -177,6 +181,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     </div>
 
+</div>
 </div>
 
 <script src="js/script.js"></script>
