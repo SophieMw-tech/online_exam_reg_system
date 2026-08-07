@@ -1,0 +1,214 @@
+@import url("style.css");
+
+
+/* HEADER */
+
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.page-header a {
+    color: #1F2937;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.page-header h2 {
+    margin: 0;
+    color: #1F2937;
+    font-size: 20px;
+}
+
+
+/* FILTER */
+
+.filter-form label {
+    display: block;
+    color: #1F2937;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.select-wrapper {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    height: 36px;
+    padding: 5px 35px 5px 10px;
+    border: 1.5px solid #1F2937;
+    border-radius: 10px;
+    background: #fff;
+    appearance: none;
+    font-size: 13px;
+}
+
+.select-wrapper i {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    pointer-events: none;
+    font-size: 13px;
+}
+
+
+/* SEARCH */
+
+.search-box {
+    height: 36px;
+    border: 1.5px solid #1F2937;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
+
+.search-box i {
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    background: transparent;
+}
+
+.search-button {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    background: #1E40AF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+/* COLUMN HEADERS */
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px 8px;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+
+/* STUDENT LIST */
+
+.registrations-list {
+    margin-bottom: 80px;
+}
+
+.student-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #1F2937;
+    min-height: 58px;
+}
+
+.student-info {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.student-icon {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #1F2937;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    flex-shrink: 0;
+}
+
+.student-info strong {
+    display: block;
+    color: #1F2937;
+    font-size: 13px;
+}
+
+.student-info p {
+    margin: 2px 0 0;
+    color: #6B7280;
+    font-size: 12px;
+}
+
+
+/* STATUS */
+
+.status {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 4px 7px;
+    border-radius: 8px;
+}
+
+.confirmed {
+    background: #BBF7D0;
+    color: #166534;
+}
+
+.pending {
+    background: #FDE68A;
+    color: #854D0E;
+}
+
+
+/* NO RESULTS */
+
+.no-results {
+    text-align: center;
+    padding: 35px 10px;
+    color: #6B7280;
+}
+
+.no-results i {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+
+/* BOTTOM NAV */
+
+.admin-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #E5E7EB;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.admin-nav a {
+    color: #6B7280;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.admin-nav a.active {
+    color: #1E40AF;
+}
