@@ -149,3 +149,8 @@ h2{
     color:inherit;
     display:block;
 } 
+.profile-link{
+    text-decoration:none; 
+    font-size:10px;
+    color:#1E40AF;
+}

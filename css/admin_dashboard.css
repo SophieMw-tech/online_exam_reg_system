@@ -1,0 +1,157 @@
+@import url("style.css");
+
+.admin-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.admin-header h2{
+    color:#1F2937;
+    margin:0;
+}
+
+.admin-header i{
+    font-size:38px;
+    color:#1E40AF;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.stat-card{
+    background:#F3F4F6;
+    border-radius:16px;
+    padding:20px 10px;
+    text-align:center;
+}
+
+.stat-card i{
+    font-size:30px;
+    color:#1E40AF;
+    margin-bottom:10px;
+}
+
+.stat-card h3{
+    font-size:28px;
+    color:#1F2937;
+    margin:5px 0;
+}
+
+.stat-card p{
+    font-size:13px;
+    color:#4B5563;
+    font-weight:500;
+}
+
+.section-title{
+    color:#1F2937;
+    margin:20px 0 12px;
+}
+
+.activity-card{
+    background:#F3F4F6;
+    border-radius:16px;
+    padding:18px;
+    margin-bottom:25px;
+}
+
+.activity{
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+    padding:10px 0;
+}
+
+.activity-icon{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background:#DBEAFE;
+    color:#1E40AF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+}
+
+.activity-icon.pending{
+    background:#DCFCE7;
+    color:#166534;
+}
+
+.activity strong{
+    color:#1F2937;
+    font-size:14px;
+}
+
+.activity p{
+    color:#4B5563;
+    margin:3px 0;
+    font-size:13px;
+}
+
+.activity small{
+    color:#6B7280;
+}
+
+.empty{
+    color:#6B7280;
+    text-align:center;
+}
+
+.quick-actions{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    margin-bottom:90px;
+}
+
+.quick-actions a{
+    background:#F3F4F6;
+    border-radius:14px;
+    padding:16px 5px;
+    text-align:center;
+    text-decoration:none;
+    color:#1F2937;
+}
+
+.quick-actions i{
+    display:block;
+    font-size:25px;
+    color:#1E40AF;
+    margin-bottom:8px;
+}
+
+.quick-actions span{
+    font-size:12px;
+    font-weight:600;
+}
+
+.admin-nav{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:70px;
+    border-top:1px solid #E5E7EB;
+    background:#fff;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.admin-nav a{
+    color:#6B7280;
+    font-size:24px;
+    text-decoration:none;
+}
+
+.admin-nav a.active{
+    color:#1E40AF;
+}

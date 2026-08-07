@@ -79,7 +79,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <div class="top">
 
-<i class="fa-solid fa-circle-user profile"></i>
+<i class="fa-solid fa-circle-user profile">
+  <a href="profile.php" class="profile-link">Profile</a>
+</i>
 
 <i class="fa-regular fa-bell bell"></i>
 

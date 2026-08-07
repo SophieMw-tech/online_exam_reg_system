@@ -1,0 +1,45 @@
+@import url("style.css");
+
+.admin-login {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.admin-icon {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.admin-login h2 {
+    color: #1F2937;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.admin-login form {
+    text-align: left;
+}
+
+.admin-login label {
+    display: block;
+    color: #1F2937;
+    font-weight: 500;
+    margin: 15px 0 7px;
+}
+
+.admin-login .btn {
+    margin-top: 25px;
+}
+
+.back-link {
+    display: block;
+    margin-top: 25px;
+    color: #1E40AF;
+    text-decoration: none;
+    font-weight: 500;
+}

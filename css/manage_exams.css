@@ -1,0 +1,177 @@
+@import url("style.css");
+
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.page-header a {
+    color: #1F2937;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.page-header h2 {
+    margin: 0;
+    color: #1F2937;
+    font-size: 20px;
+}
+
+.form-heading {
+    color: #6B7280;
+    font-size: 14px;
+    margin: 5px 0 10px;
+}
+
+.exam-form label {
+    display: block;
+    color: #1F2937;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 9px 0 5px;
+}
+
+.exam-form input {
+    width: 100%;
+    height: 36px;
+    padding: 7px 10px;
+    border: 1.5px solid #1F2937;
+    border-radius: 10px;
+    font-size: 13px;
+    background: #fff;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.submit-btn {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    margin-top: 15px;
+    background: #1E40AF;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    padding: 9px;
+    border-radius: 10px;
+    background: #F3F4F6;
+    color: #1F2937;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.existing-title {
+    color: #6B7280;
+    font-size: 14px;
+    margin: 12px 0 8px;
+}
+
+.existing-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #F3F4F6;
+    border: 1px solid #D1D5DB;
+    border-radius: 12px;
+    padding: 9px;
+    margin-bottom: 8px;
+}
+
+.tool-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    background: #D1D5DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.tool-icon i {
+    font-size: 22px;
+    color: #4B5563;
+}
+
+.exam-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.exam-info strong {
+    display: block;
+    color: #1F2937;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.exam-info p {
+    color: #9CA3AF;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.card-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.card-actions a {
+    color: #1F2937;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-actions a:first-child {
+    color: #374151;
+}
+
+.card-actions a:last-child {
+    color: #1F2937;
+}
+
+.empty {
+    text-align: center;
+    padding: 20px;
+    color: #6B7280;
+    background: #F3F4F6;
+    border-radius: 12px;
+}
+
+.admin-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #E5E7EB;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.admin-nav a {
+    color: #6B7280;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.admin-nav a.active {
+    color: #1E40AF;
+}
